@@ -1,0 +1,45 @@
+{
+  "name": "azurekeyvaultsample",
+  "version": "1.0.0",
+  "description": "A sample typescript application using nodejs/express/typescript to access the secrets from Azure Key Vault",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prncher/AzureKeyVaultSample.git"
+  },
+  "keywords": [
+    "AzureKeyVault",
+    "NodeJS",
+    "ExpressJS",
+    "TpeScript"
+  ],
+  "author": "Prince Cheruvathur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prncher/AzureKeyVaultSample/issues"
+  },
+  "homepage": "https://github.com/prncher/AzureKeyVaultSample#readme",
+  "dependencies": {
+    "@types/adal": "^1.0.25",
+    "@types/azure": "^0.9.18",
+    "@types/es6-promise": "0.0.32",
+    "@types/express": "^4.0.35",
+    "@types/jsonwebtoken": "^7.2.0",
+    "@types/node": "^7.0.4",
+    "adal-node": "^0.1.22",
+    "azure-keyvault": "^1.0.0",
+    "express": "^4.14.1",
+    "jsonwebtoken": "^7.2.1",
+    "q": "^1.4.1",
+    "typings": "^2.1.0"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.4.0",
+    "gulp-typescript": "^3.1.4"
+  }
+}

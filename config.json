@@ -1,0 +1,7 @@
+{
+  "id": "{Azure AD App. ID}",
+  "key": "{Azure AD App secret}",
+  "tokenName": "{secret key name}",
+  "tokenVersion": "{secret key version}",
+  "url": "https://{your keyvault name}.vault.azure.net"
+}
